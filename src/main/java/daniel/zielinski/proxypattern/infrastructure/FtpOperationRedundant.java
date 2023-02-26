@@ -15,12 +15,12 @@ import java.io.IOException;
 public class FtpOperationRedundant {
 
 //    private final FTPClient ftpClient;
-//
+
 //    public FTPFile[] listDirectories(String parentDirectory) {
 //        try {
 //            ftpClient.connect("host", 22);
 //            ftpClient.login("username", "password");
-//            return ftpClient.listDirectories();
+//            return ftpClient.listDirectories(parentDirectory);
 //        } catch (IOException ex) {
 //            log.error("Something went wrong", ex);
 //            throw new RuntimeException(ex);
