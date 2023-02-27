@@ -1,6 +1,5 @@
-package daniel.zielinski.proxypattern.endpoint.api;
+package daniel.zielinski.redundancy.endpoint.api;
 
-import daniel.zielinski.proxypattern.domain.FileFacade;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -13,14 +12,14 @@ import org.springframework.web.bind.annotation.RestController;
 public class FileController {
 
     private final FileFacade fileFacade;
-    @GetMapping
-    public void listFiles() {
-        fileFacade.listDirectories();
-    }
-
-    @DeleteMapping
-    public void deleteFile() {
-        fileFacade.deleteFile();
-    }
+//    @GetMapping
+//    public void listFiles() {
+//        fileFacade.listDirectories();
+//    }
+//
+//    @DeleteMapping
+//    public void deleteFile() {
+//        fileFacade.deleteFile();
+//    }
 
 }

@@ -1,4 +1,4 @@
-package daniel.zielinski.proxypattern.infrastructure;
+package daniel.zielinski.redundancy.proxyaop.infrastructure;
 
 
 import java.lang.annotation.ElementType;
@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 
 @Target({ElementType.TYPE, ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)
-public @interface FtpOperation {
+@interface FtpOperation {
 }
 
 
